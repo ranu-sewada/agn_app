@@ -8,8 +8,13 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
+gem 'authority'
+gem 'devise', '~> 4.4.1'
+gem "rolify"
+
+gem 'bootstrap-sass', '3.3.7'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+gem 'pg', '0.18.4'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
