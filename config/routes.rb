@@ -6,8 +6,16 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   # root 'application#hello'
 
-   root 'employee_pages#home'
+  resources :employee
+
+   root 'employee#home'
    # root 'application#hello'
+   get 'employee/index'
+   # get 'employee_pages/jobcreate'
+
+   resources :job
+   get 'job/create'
+
 
 
 end
