@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -15,10 +16,7 @@ Things you may want to cover:
 
 * Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+=======
+# agn_app
+>>>>>>> c09a62da764b76ae6f80693c54bf7f0e46bf52e6
